@@ -43,7 +43,7 @@
 
 }
 
-.btn{
+/* .btn{
     background-color: #DAC15C;
     color: white;
 }
@@ -55,7 +55,7 @@
     color: #DAC15C;
 
     
-}
+} */
 .nav-item{
     border-radius: 15px;
 }
@@ -65,6 +65,21 @@
     background-color: #DAC15C;
     border-radius: 15px;
     transition: all .5s;
+    
+}
+
+ .btn{
+    background-color: white;
+    color: #DAC15C;
+
+}
+
+
+ .btn:hover{
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+
     
 }
 
@@ -105,3 +120,5 @@
 .content .container-fluid .container .row h2 {
     margin-block-end: 50px;
 }
+
+
