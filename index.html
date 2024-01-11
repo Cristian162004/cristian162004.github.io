@@ -1,183 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
-    crossorigin="anonymous">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        h1{
+            
+            color: #6433FF;
+        }
+        body{
+            /*background-color: blueviolet; */
+            
+            
+            
+            
 
 
+        }
+
+        .div_main{        
+            text-align: center;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .row_buttons{
+            gap: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-flex;
+            justify-content: space-between;
+            align-content: center;
+            color: white;
+          
+        }
+        .cora{
+            text-align: center;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+
+        }
+    </style>
 </head>
-
 <body>
-    <div class="img-fluid fondo"></div>
-    
-        <header class="header ">
-         <div class="bg-dark">
-            
-            <div class="container-flud" >
-                <nav class="navbar navbar-expand-lg">
-                    
-                    <div class="container">
-                    
-                        <a href="#" class="navbar-brand display-5 text-white ">El REVOLTIJO DEL PLATANO<img style="width: 15%; padding-left: 5px;" src="logo.png"></a>
-
-                        <button class="navbar-toggler btn-white" style="border-color: white; color: white; " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon navbar-toggler-icon-white" style="color: white; border-color: white;"></span>
-                        </button>
-                        <div class="collapse navbar-collapse text-white ml-5" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
-                              <li class="nav-item px-3">
-                                <a class="nav-link" aria-current="page" href="#">Inicio</a>
-                              </li>
-                              <li class="nav-item px-3">
-                                <a class="nav-link" href="#">Prueba</a>
-                              </li>
-            
-                              <li class="nav-item px-3">
-                                <a class="nav-link" href="#">Disabled</a>
-                              </li>
-                            </ul>
-                    </div>
-            
-                </nav>
-            </div>
-         </div>
-        </header>
-            <div class="content">
-                <section class="section1">
-             
-                    <h1 class="display-6">
-                      "Delicias de Plátano,<br>
-                      Sabor que Marca la Diferencia"</h1>
-                        <!-- <p class="text-center" style="width: 50%;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, 
-                            odit quos! Alias blanditiis aliquid ratione quia nam porro, illo dolores velit accusamus eligendi. 
-                            Reiciendis quis perspiciatis at. Ea, repellendus nesciunt!</p> -->
+    <div class="div_main">
+        <h1>¿Quieres ser mi novia?</h1>
+        
       
 
-                </section>
+    </div>
+    <div class="row_buttons">
+        <div class="div_btn_yes">
+            
+            <button id="Si" type="submit" style="background-color: #774CFF;" class="btn text-white" value="" >Si :)</button>
+        </div>
+        <div class="div_btn_no">
+            <button id="No" type="submit" style="background-color: #774CFF;" class="btn text-white" value="" >No :(</button>
+        </div>
+    </div>
+       <div class="cora">
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-heart-fill" color="#9574FF" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+          </svg>
+       </div> 
 
-                <div class="container-flud" style="background-color: white;  padding: 20px;  border-radius: 15px;">
-                    <div class="container">
-                        <div class="row">
-                            <h2 class="text-center display-6 m-6" style="margin-block-end: 30px;">Misión y Visión</h2>
-                        </div>
-                            <div class="row" style="margin-block-end: 50px;">
-                                <div class="col-sm-6 mb-3 mb-sm-0">
-                                  <div class="card" style="height: 100%;">
-                                    <div class="card-body ">
-                                      <h5 class="card-title text-center">Misión</h5>
-                                      <p class="card-text text-center lh-base" style="padding-block-end: 30px;">ofrecer al cliente una amplia variedad de alimentos rápidos y sabrosos, 
-                                        preparados con ingredientes frescos y de calidad, para satisfacer sus necesidades de alimentación rápida y 
-                                        conveniente. Nuestro objetivo es brindar un servicio excepcional, tanto en la preparación de los alimentos 
-                                        como en la atención al cliente, garantizando la satisfacción y fidelidad de nuestros clientes. Además, nos 
-                                        comprometemos a mantener altos estándares de higiene y seguridad alimentaria en todas nuestras operaciones, para asegurar la salud y el bienestar de nuestros clientes. A través de nuestra misión, buscamos ser reconocidos como líderes en la industria de comida rápida, brindando una experiencia culinaria excepcional que supera las expectativas de nuestros clientes</p>
-                                      <!-- <a href="#" class="btn">Go somewhere</a> -->
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <div class="card te" style="height: 100%;">
-                                    <div class="card-body">
-                                      <h5 class="card-title text-center">Visión</h5>
-                                      <p class="card-text col-12 text-center lh-base">Convertirnos  en la opción preferida de los consumidores cuando buscan alimentos rápidos y sabrosos. Nos esforzamos por ser reconocidos como líderes en la industria, ofreciendo constantemente nuevos productos y servicios innovadores que se adapten a las necesidades cambiantes de nuestros clientes. Buscamos expandir nuestra presencia a nivel nacional e internacional, manteniendo siempre nuestros altos estándares de calidad, servicio y satisfacción del cliente. Además, nos comprometemos a ser una empresa socialmente responsable, promoviendo prácticas sostenibles y contribuyendo positivamente a las comunidades en las que operamos. En resumen, nuestra visión es ser la referencia en comida rápida, brindando una experiencia excepcional que deleite a nuestros clientes en todos los aspectos.</p>
-                                      <!-- <a href="#" class="btn">Go somewhere</a> -->
-                                    </div>
-                                  </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
+       <script>
+        const btn_yes = document.getElementById("Si")
+        const btn_no = document.getElementById('No')
 
-                <div class="container-flud text-white" style="background-color:  #DAC15C;  padding: 20px;  border-radius: 15px;">
-                  <div class="container">
-                      <div class="row">
-                          <h2 class="text-center display-6 m-6" style="margin-block-end: 30px;">Objetivos</h2>
-                      </div>
-                          <div class="row" style="margin-block-end: 50px;">
-                              <div class="col-sm-6 mb-3 mb-sm-0">
-                                <div class="card bg-transparent text-white"  style="height: 100%;">
-                                  <div class="card-body ">
-                                    <!-- <h5 class="card-title text-center">Misión</h5> -->
-                                    <p class="card-text text-center lh-base" style="padding-block-end: 30px;">
-                                      Ofrecer opciones deliciosas para satisfacer las necesidades de los clientes.</p>
-                                    <!-- <a href="#" class="btn">Go somewhere</a> -->
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="col-sm-6">
-                                <div class="card bg-transparent text-white" style="height: 100%;">
-                                  <div class="card-body ">
-                                    <!-- <h5 class="card-title text-center">Visión</h5> -->
-                                    <p class="card-text col-12 text-center lh-base">
-                                      Brindar un servicio rápido y de calidad para generar una base sólida de clientes satisfechos y fomentar el crecimiento y la rentabilidad del negocio.</p>
-                                    <!-- <a href="#" class="btn">Go somewhere</a> -->
-                                  </div>
-                                </div>
-                              </div>
-                          </div>
-                      </div>
-              </div>
+        const alerta_yes = (event) => {
+            event.preventDefault(); 
+            const mensaje = 'Sabía que ibas a decir que sí sakjdkasdaskjdaskdjksdsjdl';
+            if (confirm(mensaje)) {
+                // Acciones a realizar si el usuario hace clic en "Aceptar"
+                window.location.href = "https://www.youtube.com/watch?v=je8ZAs2CkG8"; // Puedes redirigir a una URL específica
+            }
+        }
 
-              <div class="container-fluid" style="background-color:  white;  padding: 20px;  border-radius: 15px;">
-                <div class="row">
-                  <h2 class="text-center display-6 m-6" style="margin-block-end: 30px;">Productos</h2>
-                </div>
-                <div class="row">
-                  <div class="col-12 col-md-4">
-                      <img  class="img-fluid" src="images/1web.png " alt="">
-                      <div class="card-body" align="center">
-                        <h1>Nombre Producto</h1>
-                        <p>Descripcion</p>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-4">
-                      <img  class="img-fluid" src="images/2web.png" alt="">
-                      <div class="card-body" align="center">
-                        <h1>Nombre Producto</h1>
-                        <p>Descripcion</p>
-                      </div>
-                  </div>
-                  <div class="col-12 col-md-4">
-                      <img  class="img-fluid" src="images/3web.png" alt="">
-                      <div class="card-body" align="center">
-                        <h1>Nombre Producto</h1>
-                        <p>Descripcion</p>
-                      </div>
-                  </div>
-              </div>
-              </div>
-              <section class="about" id="QueQueremos">
-                <div class="container-fluid" style="background-color:  #DAC15C;  padding: 20px;  border-radius: 15px;">
-                  <div class="row">
-                    <h2 class="text-center display-6 m-6 text-white" style="margin-block-end: 30px;">¿Qué Queremos?</h2>
-                  </div>
-                    <div class="row align-items-lg-center">
-                        <div class="col-12 col-md-6 text-center text-md-left text-white" data-aos="fade-right">
-
-                            
-                            <p>Ahora queremos llegar a todas las personas que nunca prueban algo nuevo. Como cualquier negocio, si fuera posible, quisiéramos expandirlo a otras partes de Colombia donde no sea tan común comer plátano. Queremos que las personas entiendan que detrás de un plátano hay mucho trabajo <strong>Si deseas conocer mas, Te invitamos a descargar Nuestro folleto.</strong></p>
-                            <!-- <a class="btn mt-4 mb-5 mb-md-0 " href="#">Saber mas</a> -->
-                            <a class="btn mt-4 mb-5 mb-md-0 " href="Folleto Tríptico Actividades Verano Asociación Infantil Doodle Divertido Amarillo y Blanco .pdf" download>Descargar Folleto</a>
-                        </div>
-                        <div class="col-12 col-md-6 "  >
-                            <img class="img-fluid" align="center" width="70%" src="img_folleto.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>  
-  
-              </div>
+        const eventono = (event) => {
+            btn_no.style.position = 'absolute'
+            btn_no.style.top = (Math.random() * window.innerHeight) + 'px';
+            btn_no.style.left = (Math.random() * window.innerWidth) + 'px';
+            
+        }
 
 
-                 
+        btn_yes.addEventListener('click', alerta_yes);
+        btn_no.addEventListener('click', eventono)
+       </script>
 
-       
-                
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+       </scrip>
+    
+
+    
 </body>
 </html>
